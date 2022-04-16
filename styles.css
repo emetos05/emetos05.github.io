@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 1rem;
+}
+.slide {
+  height: 400px;
+  background-image: url("./images/img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.navbar-brand {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar-brand:hover {
+  background-color: #111;
+}
+.page-content {
+  margin: 5px;
+}
+h1 {
+  text-align: center;
+  font-family: monospace;
+  text-decoration: none;
+  font-style: italic;
+  color: midnightblue;
+}
+.nav-item > a {
+  display: block;
+  color: white;
+  /* color: #333; */
+  text-align: center;
+  font-weight: bold;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav-item > a:hover {
+  background-color: #111;
+  text-decoration: none;
+  color: #fff;
+}
+.contact-form {
+  margin: 5px;
+  padding: 0;
+}
+.contact-form h1 {
+  text-align: left;
+}
+.intro {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* font-size: 1.5rem; */
+  font-family: monospace;
+  text-decoration: none;
+  font-style: italic;
+  color: indigo;
+  background: url(./images/big.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.index-content {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/big.jpeg) center/cover no-repeat fixed;
+}
+.fa-github {
+  position: relative;
+}
+.fa-linkedin {
+  color: #0a66c2;
+}
